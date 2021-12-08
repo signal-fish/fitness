@@ -1,0 +1,95 @@
+.blogBlock {
+  .wrap {
+    display: flex;
+    margin: 0 0 60px;
+    padding: 0 0 60px;
+    border-bottom: 1px solid darken($white, 10%);
+
+    @media only screen and (max-width: 767px) {
+      margin: 0 0 40px;
+      padding: 0 0 40px;
+    }
+
+    @media only screen and (max-width: 480px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .image {
+    flex: 0 0 50%;
+    margin: 0 25px 0 0;
+
+    @media only screen and (max-width: 1023px) {
+      flex: 0 0 40%;
+    }
+
+    @media only screen and (max-width: 480px) {
+      flex: 0 0 100%;
+      margin: 0 0 20px;
+    }
+  }
+
+  .meta {
+    margin: 0 0 16px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 14px;
+
+      @media only screen and (max-width: 767px) {
+        font-size: 12px;
+      }
+    }
+
+    li {
+      margin: 0 25px 0 0;
+
+      i {
+        margin: 0 5px 0 0;
+        color: $primaryColor;
+      }
+    }
+  }
+
+  h4 {
+    @media only screen and (max-width: 767px) {
+      font-size: 20px;
+      line-height: 1.4;
+    }
+
+    a {
+      color: $lightBlack;
+
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+
+  .content {
+    p {
+      margin: 0 0 40px;
+
+      @media only screen and (max-width: 767px) {
+        margin: 0 0 30px;
+      }
+    }
+  }
+
+  .holder {
+    display: none;
+  }
+
+  .btnHolder {
+    text-align: center;
+
+    button {
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

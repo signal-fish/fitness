@@ -1,0 +1,22 @@
+.contactBlock {
+  .formHolder {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .row {
+    margin: 0 0 20px;
+  }
+
+  label {
+    display: block;
+    margin: 0 0 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+  }
+}

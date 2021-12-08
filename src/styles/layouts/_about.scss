@@ -1,0 +1,51 @@
+.aboutBlock {
+  .contentHolder {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 0 70px;
+
+    @media only screen and (max-width: 480px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .image {
+    flex: 0 0 45%;
+    margin: 0 30px 0 0;
+    overflow: hidden;
+
+    @media only screen and (max-width: 480px) {
+      flex: 0 0 100%;
+      margin: 0 0 30px;
+    }
+
+    img {
+      transition: transform 0.3s linear;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h2 {
+    @media only screen and (max-width: 767px) {
+      font-size: 26px;
+    }
+  }
+
+  .btn-primary {
+    width: 160px;
+
+    @media only screen and (max-width: 767px) {
+      width: 120px;
+    }
+  }
+}

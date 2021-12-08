@@ -1,0 +1,41 @@
+.heroBlock {
+  padding: 150px 0;
+  color: $white;
+  text-align: center;
+  font-size: 18px;
+  background-size: cover !important;
+  background-position: 50% 0 !important;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 14px;
+    padding: 70px 0;
+  }
+
+  .container {
+    max-width: 640px;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 30px;
+    }
+  }
+
+  p {
+    margin: 0 0 50px;
+
+    @media only screen and (max-width: 767px) {
+      margin: 0 0 30px;
+    }
+  }
+
+  .btn-primary {
+    display: inline-block;
+    vertical-align: top;
+  }
+}

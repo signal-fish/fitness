@@ -1,0 +1,30 @@
+.whyusBlock {
+  .col {
+    text-align: center;
+
+    h4 {
+      text-transform: uppercase;
+      margin: 0;
+
+      @media only screen and (max-width: 767px) {
+        font-size: 22px;
+      }
+    }
+
+    .icon {
+      font-size: 40px;
+      margin: 0 0 30px;
+    }
+  }
+
+  .morecontent {
+    div {
+      display: none;
+    }
+
+    a {
+      text-decoration: underline;
+      display: block;
+    }
+  }
+}
